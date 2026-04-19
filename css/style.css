@@ -1,0 +1,291 @@
+:root {
+  --color-primary: #c2410c; /* Brand orange-red */
+  --color-primary-content: #ffffff; /* Text on primary background */
+  --color-secondary: #6b7280; /* Muted gray text */
+  --color-neutral: #3f3f46; /* Dark sections (footer, bars) */
+  --color-neutral-content: #f4f4f5; /* Text on dark backgrounds */
+  --color-base-100: #fff8f1; /* Warm white page background */
+  --color-base-200: #f5ede5; /* Slightly darker warm white */
+  --color-base-300: #e7d9c9; /* Borders and dividers */
+  --color-base-content: #2d1b10; /* Default dark text */
+  --color-error: #ef4444; /* Red for error states */
+  --color-success: #22c55e; /* Green for success states */
+
+  /* Bootstrap mapping */
+
+  /* --bs-primary: var(--color-primary);
+  --bs-primary-content : var(--color-primary-content);
+  --bs-secondary : var(--color-secondary);
+  --bs-neutral : var(--color-neutral);
+  --bs-neutral-content : var(--color-neutral-content);
+  --bs-base-100 : var(--color-base-100);
+  --bs-base-200 :var(--color-base-200);
+  --bs-base-300 :var(--color-base-300);
+  --bs-base-content:var(--color-base-content);
+  --bs-error : var(--color-error);
+  --bs-success : var(--color-success); */
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  height: auto;
+  width: 100%;
+}
+header {
+  background-color: var(--color-primary);
+  height: 64px;
+}
+#headerLogin:hover {
+  border: 1px solid white;
+}
+#headerRegister:hover {
+  border: 1px solid white;
+  background-color: var(--color-primary);
+  color: white !important;
+}
+
+
+
+
+footer {
+  /* padding: 10%; */
+  background-color: var(--color-neutral);
+  height: fit-content;
+}
+#footerContainer {
+  height: auto;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 7%;
+  /* padding-left: 2vw; */
+}
+#logoCircle {
+  width: 60%;
+}
+.hero {
+  position: relative;
+}
+.hero img {
+  height: 617px;
+  width: 100%;
+}
+#signup{
+  height: 45px;
+  padding: 4px;
+  width: 120px;
+  font-weight: bold;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 10px;
+
+  /* display: flex; */
+}
+#signup:hover{
+  background-color: #b13d10;
+}
+#orderNow{
+  height: 45px;
+  width: 140px;
+  font-weight:600;
+  border-radius: 10px;
+  background-color: var(--color-base-100);
+}
+#orderNow:hover{
+  background-color: var(--color-base-200);
+
+}
+.searchBox{
+  width: 60vw;
+  height: 7vh;
+  bottom:20% ;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  left: 20%;
+  padding-left: 10px;
+  background-color: var(--color-base-200);
+}
+.searchBox input{
+  background-color: var(--color-base-200);
+  border: none;
+}
+/* .searchBox input:hover{
+  background-color: var(--color-base-200);
+
+} */
+ .searchBox input::placeholder{
+  color:#e89372;
+ }
+#hero-center {
+  font-size: 49px;
+  font-weight: bold;
+}
+#loginMain img {
+  height: 660px;
+  width: 100%;
+}
+
+#register_form {
+  height: auto;
+  width: 30%;
+}
+/* height: 490px; */
+/* height: 490px; */
+#login_form {
+  height: fit-content;
+  width: 30%;
+  /* top: 50%; */
+}
+#Loginbtn {
+  background-color: #c2410c;
+  border: none;
+  padding: 3%;
+}
+#Registerbtn {
+  background-color: #c2410c;
+  border: none;
+  padding: 3%;
+}
+#featuredrestaurants{
+  /* background-color: #fff; */
+  /* background: #FD5B2D; */
+background: linear-gradient(179deg, rgb(192, 57, 20) 0%, rgba(241, 163, 142, 0.73) 66%, rgba(251, 232, 227, 0.1) 96%);
+}
+.restaurantCards{
+  background-color: #fff;
+  width: 31%;
+  height: 430px;
+  border-radius: 10px;
+  padding: 0;
+  transition: transform 0.3s ease;
+  
+}
+
+ #text{
+  font-size: 14px;
+ }
+.restaurantCards img{
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+  width: 100%;
+  height:45%;
+}
+
+
+.foodType{
+  background-color: var(--color-base-300);
+  font-size: 12px;
+  padding: 4px;
+  border-radius: 5px;
+  padding-inline: 10px;
+
+}
+#exploreBtn{
+  background-color: var(--color-primary);
+  border: none;
+  color: var(--color-base-100);
+  padding: 10px;
+  /* padding-bottom: ; */
+  margin-bottom: 10px;
+}
+#exploreBtn:hover{
+  opacity: 80%;
+}
+.restaurantCards:hover{
+  transform: scale(1.05);
+}
+#cravingCustomers{
+  background-color: #FFF8F1;
+  padding: 5%;
+}
+#custmorsCardContainer{
+  width: 80%;
+}
+.cravingCustomerCards{
+  height: 230px;
+  width: 23%;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  box-shadow:  0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  line-height: 2;
+
+}
+.cravingCustomerCards:hover{
+  box-shadow: 0 3px 30px rgba(0,0,0,0.15);
+}
+#c1,#c3{
+  color: var(--color-primary);
+  font-size: 45px;
+  font-weight: 700;
+}
+#c2,#c4{
+  color: #D9468F;
+  font-size: 45px;
+  font-weight: 700;
+}
+.card-text{
+  line-height: 1.5;
+  text-align: center;
+}
+.reviewCards{
+  width: 33%;
+  background-color: #FFF8F1;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow:  0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+.ratingStar{
+  color: #FDC700;
+  font-size: large;
+  display: flex;
+  gap: 10px;
+}
+.profile{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 750;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buyer{
+  line-height: 0.5;
+  padding-top: 15px;
+}
+.reviewCards:hover{
+  box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+#sp{
+  background-color: #D9468F;
+}
+#customerReview{
+  padding: 4%;
+}
+#partner{
+  background-color: var(--color-primary);
+  padding: 5%;
+}
+#partner button{
+  color: var(--color-primary);
+  font-weight: 500;
+  padding: 10px;
+  width: 13%;
+  height: 50px;
+}
