@@ -316,8 +316,13 @@ background: linear-gradient(179deg, rgb(192, 57, 20) 0%, rgba(241, 163, 142, 0.7
   padding: 0;
   transition: transform 0.3s ease;
 }
+.restaurantCards2:hover{
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+}
 .allRestaurantsContainer{
   width: 80vw;
+  padding-bottom:50px ;
 }
 .starRating{
   height: 25px;
@@ -332,4 +337,62 @@ background: linear-gradient(179deg, rgb(192, 57, 20) 0%, rgba(241, 163, 142, 0.7
   gap:4px;
   border-radius: 15px;
   color: #fff;
+}
+.restImg{
+  width: 13vw;
+  height: 23vh;
+  border-radius: 10px;
+}
+.restaurantDetailsContainer{
+  background-color: #F5EDE5;
+}
+.restaurant{
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding-left: 8%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #FFF8F1;
+
+}
+.location{
+  line-height: 0.7;
+}
+.menuContainer{
+  background-color: #F5EDE5;
+  padding-bottom: 90px;
+  
+}
+.menu{
+  width: 70vw;
+  padding-top:2%;
+}
+.dishCards{
+  height: 20vh;
+  background-color: var(--color-base-100);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.dishCards:hover{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+}
+.foodImages{
+  width:7.5vw;
+  border-radius: 10px;
+}
+.foodCategory{
+  font-size: 13px;
+}
+.price{
+  color: var(--color-primary);
+  font-size: 20px;
+}
+.Add{
+  background-color: var(--color-primary);
+
+}
+.Add:hover{
+  background-color: #b13d10;
+
 }
