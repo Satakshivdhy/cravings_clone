@@ -11,19 +11,6 @@
   --color-error: #ef4444; /* Red for error states */
   --color-success: #22c55e; /* Green for success states */
 
-  /* Bootstrap mapping */
-
-  /* --bs-primary: var(--color-primary);
-  --bs-primary-content : var(--color-primary-content);
-  --bs-secondary : var(--color-secondary);
-  --bs-neutral : var(--color-neutral);
-  --bs-neutral-content : var(--color-neutral-content);
-  --bs-base-100 : var(--color-base-100);
-  --bs-base-200 :var(--color-base-200);
-  --bs-base-300 :var(--color-base-300);
-  --bs-base-content:var(--color-base-content);
-  --bs-error : var(--color-error);
-  --bs-success : var(--color-success); */
 }
 
 * {
@@ -172,7 +159,7 @@ background: linear-gradient(179deg, rgb(192, 57, 20) 0%, rgba(241, 163, 142, 0.7
  #text{
   font-size: 14px;
  }
-.restaurantCards img{
+.restaurantCards img,.restaurantCards2 img{
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
   width: 100%;
@@ -288,4 +275,61 @@ background: linear-gradient(179deg, rgb(192, 57, 20) 0%, rgba(241, 163, 142, 0.7
   padding: 10px;
   width: 13%;
   height: 50px;
+}
+.order-now{
+  background-color: #F5EDE5;
+  padding:8px ;
+}
+.searchTab{
+  height: 13vh;
+  width: 98vw;
+  background-color: #FFF8F1;
+  /* margin: 8px; */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
+}
+.searchbar{
+  border-radius: 8px ;
+  width: 80vw;
+  height:7vh;
+  border: 1px solid #c2410c;
+  color: #c2410c;
+  background-color: #FFF8F1;
+}
+.searchbar::placeholder{
+  color: #E19C7E;
+  padding-left: 40px;
+
+}
+.searchbar:active{
+  border: 1px solid #c2410c;
+
+}
+.restaurantCards2{
+  background-color: #fff;
+  width: 32%;
+  height: 430px;
+  border-radius: 10px;
+  padding: 0;
+  transition: transform 0.3s ease;
+}
+.allRestaurantsContainer{
+  width: 80vw;
+}
+.starRating{
+  height: 25px;
+  width: 60px;
+  background-color: var(--color-primary);
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:4px;
+  border-radius: 15px;
+  color: #fff;
 }

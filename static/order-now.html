@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header
+      class="d-flex sticky-top w-100vw justify-content-between align-items-center px-5"
+    >
+      <div class="object-fit-contain">
+        <a href="./index.html"
+          ><img class="w-25" src="/images/logo-light.png" alt="logo"
+        /></a>
+      </div>
+      <div class="d-flex gap-3">
+        <a
+          href="./login.html"
+          class="btn w-50 text-decoration-none text-light"
+          id="headerLogin"
+          >Login</a
+        >
+        <a
+          href="./register.html"
+          class="btn btn-light w-100 text-danger"
+          id="headerRegister"
+        >
+          Register
+        </a>
+      </div>
+    </header>
+
+    <div class="order-now">
+      <div class="searchTab">
+        <div class="position-relative">
+          <i
+            class="bi bi-search position-absolute top-50 start-0 translate-middle-y ms-3"
+          ></i>
+          <input
+            type="text"
+            placeholder="Search restaurants or cuisines..."
+            class="searchbar"
+          />
+        </div>
+      </div>
+      <div
+        class="w-100 d-flex align-items-center justify-content-center pt-4 bg-transparent"
+        
+      >
+        <div class="allRestaurantsContainer  ">
+          <h4 class="fw-bold">All Restaurants</h4 >
+          <p >3 restaurants available</p>
+          <div class="row row-cols-3 d-flex gap-4 p-3">
+            <div class="restaurantCards2 d-flex flex-column position-relative">
+              <img
+                class="object-fit-cover "
+                src="https://res.cloudinary.com/dpl3xwf1z/image/upload/v1775671325/restaurants/69c58f340d577beee548c195/njneiftngfspzpn2wdig.avif"
+                alt="under the mango tree"
+              />
+              <div class="starRating"><i class="bi bi-star-fill"></i> 3.6</div>
+
+              <h5 class="fw-bold px-3 pt-3">Under The Mango Tree</h5>
+              <p class="px-3" id="text">
+                Enjoy the thrill of grill and barbecue at Under The Mango Tree
+                restaurant at Jehan Numa Palace, Bhopal. Head here now!
+              </p>
+              <div class="d-flex gap-3 px-3">
+                <p class="foodType">Indian</p>
+                <p class="foodType">Chineese</p>
+                <p class="foodType">Italian</p>
+              </div>
+              <a href="Explore Menu" class="btn btn-info mx-3" id="exploreBtn"
+                >Explore Menu</a
+              >
+            </div>
+            <div class="restaurantCards2 d-flex flex-column position-relative">
+              <img
+                class="object-fit-cover"
+                src="https://res.cloudinary.com/dpl3xwf1z/image/upload/v1774557305/restaurants/69c58f4b0d577beee548c198/fpdlv1viy4gucm1vrh7u.webp"
+                alt="under the mango tree"
+              />
+              <div class="starRating"><i class="bi bi-star-fill"></i> 4.8</div>
+
+
+              <h5 class="fw-bold px-3 pt-3">Raj Darbar</h5>
+              <p class="px-3" id="text">
+                Raj Darbar is a one-of-a-kind Indian restaurant that offers a
+                unique dining experience for families and friends with a
+                dhaba-style theme.
+              </p>
+              <div class="d-flex gap-3 px-3">
+                <p class="foodType">Indian</p>
+                <p class="foodType">Chineese</p>
+                <p class="foodType">Italian</p>
+              </div>
+              <a href="Explore Menu" class="btn btn-info mx-3" id="exploreBtn"
+                >Explore Menu</a
+              >
+            </div>
+            <div class="restaurantCards2 d-flex flex-column position-relative">
+              <img
+                class="object-fit-cover"
+                src="https://res.cloudinary.com/dpl3xwf1z/image/upload/v1774557446/restaurants/69c590150d577beee548c19b/htwjijdrr2gbjdaf355s.webp"
+                alt="under the mango tree"
+              />
+              <div class="starRating"><i class="bi bi-star-fill"></i>4.1</div>
+
+
+              <h5 class="fw-bold px-3 pt-3">Under The Mango Tree</h5>
+              <p class="px-3" id="text">
+                Enjoy the thrill of grill and barbecue at Under The Mango Tree
+                restaurant at Jehan Numa Palace, Bhopal. Head here now!
+              </p>
+              <div class="d-flex gap-3 px-3">
+                <p class="foodType">Indian</p>
+                <p class="foodType">Chineese</p>
+                <p class="foodType">Italian</p>
+              </div>
+              <a href="Explore Menu" class="btn btn-info mx-3" id="exploreBtn"
+                >Explore Menu</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="h-50 w-100 py-4 text-light align-items-center">
+      <div id="footerContainer">
+        <p class="d-flex justify-content-center">
+          --- Your favorite food delivery platform connecting customers with
+          restaurants and riders. ---
+        </p>
+        <div class="row row-cols-5 pt-4 g-5" id="footerLinksContainer">
+          <div class="col object-fit-contain">
+            <img
+              src="/images/logo-circle.png"
+              alt="logo-circle"
+              id="logoCircle"
+            />
+          </div>
+          <div class="col g-5">
+            <p class="fw-bold fs-5">Quick Links</p>
+            <a href="#" class="text-decoration-none text-light">Home</a> <br />
+            <a href="#" class="text-decoration-none text-light">About</a> <br />
+            <a href="#" class="text-decoration-none text-light">Order Now</a>
+          </div>
+          <div class="col">
+            <p class="fw-bold fs-5">For Restaurants</p>
+            <a href="#" class="text-decoration-none text-light"
+              >Partner With Us</a
+            >
+            <br />
+            <a href="#" class="text-decoration-none text-light"
+              >Restaurant Dashboard</a
+            >
+          </div>
+          <div class="col">
+            <p class="fw-bold fs-5">For Riders</p>
+            <a href="#" class="text-decoration-none text-light"
+              >Become a Rider</a
+            ><br />
+            <a href="#" class="text-decoration-none text-light"
+              >Rider Dashboard</a
+            >
+          </div>
+          <div class="col">
+            <p class="fw-bold fs-5">Feedback & Support</p>
+            <a href="#" class="text-decoration-none text-light"
+              >Submit Feedback</a
+            ><br />
+            <a href="#" class="text-decoration-none text-light">Help Center</a
+            ><br />
+            <a href="#" class="text-decoration-none text-light">Contact Us</a>
+          </div>
+        </div>
+
+        <br />
+        <div class="h-1px border border-1 w-100"></div>
+
+        <div
+          class="w-100 d-flex justify-content-between align-items-end py-3 mt-3"
+        >
+          <div class="d-inline">© 2026 Cravings. All rights reserved.</div>
+          <div class="row row-cols-3 d-inline">
+            <a href="#" class="text-decoration-none text-light"
+              >Privacy Policy</a
+            >
+            <a href="#" class="text-decoration-none text-light"
+              >Terms of Service</a
+            >
+            <a href="#" class="text-decoration-none text-light">Site Map</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
