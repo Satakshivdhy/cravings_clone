@@ -406,3 +406,95 @@ background: linear-gradient(179deg, rgb(192, 57, 20) 0%, rgba(241, 163, 142, 0.7
 .formheader{
   color: var(--color-primary);
 }
+.aboutImg,.overlayAbout{
+  height: 60vh;
+  width: 100vw;
+}
+/* .overlayAbout{
+  position: absolute;
+  top: 38.9vh;
+  width: 100%;
+} */
+.aboutCravingsCenter{
+  height: 40vh;
+  width: 40vw;
+  background-color: transparent;
+  color: var(--color-base-100);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 18vh;
+  left: 30vw;
+}
+#logoCircle2{
+  width: 5vw
+  /* height: 10%; */
+}
+.crav{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.cravM{
+  color: var(--color-primary);
+}
+.cravs{
+  font-size: 18px;
+  color: #CECDC0;
+}
+.customer_connections{
+  width: 65%;
+}
+.grayTab{
+  height: 18vh;
+  background-color: var(--color-neutral);
+}
+.ourStory{
+  width: 75%;
+  background-color: #FFF8F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourStoryCards{
+  background-color: #fff;
+  border: 1px solid #E7D9C9;
+  border-radius: 10px;
+  width: 43%;
+  padding-top: 12px;
+  padding-left  : 15px;
+  line-height: 1;
+}
+.ourStoryContainer{
+  background-color: #FFF8F1;
+}
+.ourStoryCards i,.coreValueCards i{ 
+  color: #b13d10;
+  font-size: 2rem;
+}
+.text{
+  font-size: 12px;
+  color: #9672A1;
+}
+.ourCoreValues{
+  background-color: var(--color-base-200);
+}
+.coreValueCards{
+  width:30% ;
+  border: 1px solid #E7D9C9;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+.coreValueCardsContainer{
+  width: 72%;
+}
+.textCore{
+  font-size: 14px;
+  color: #6B72A1;
+}
