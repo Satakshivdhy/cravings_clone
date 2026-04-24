@@ -481,7 +481,7 @@ background: linear-gradient(179deg, rgb(192, 57, 20) 0%, rgba(241, 163, 142, 0.7
   background-color: var(--color-base-200);
 }
 .coreValueCards{
-  width:30% ;
+  width:320px ;
   border: 1px solid #E7D9C9;
   background-color: #fff;
   border-radius: 10px;
@@ -489,12 +489,83 @@ background: linear-gradient(179deg, rgb(192, 57, 20) 0%, rgba(241, 163, 142, 0.7
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 2rem;
 }
 .coreValueCardsContainer{
-  width: 72%;
+  width: 75%;
 }
 .textCore{
   font-size: 14px;
   color: #6B72A1;
+  text-align: center;
 }
+.cravingsTeam{
+  width: 200px;
+  background-color: blue;
+}
+.teamContainer{
+  background-color: #FFF8F1;
+}
+.teamProfileContainer {
+  width: 71%; 
+  text-align: center;
+}
+.profileM{
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 750;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutPageBtn{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.connectWithUs{
+  background-color: var(--color-primary);
+}
+
+#cwUs{
+  width: 50%;
+  padding: 7%;
+}
+.getStarted{
+  height: 50px;
+  width: 145px;
+  background-color: #fff;
+  color: #b13d10;
+
+  /* padding:3.5%;  */
+}
+
+.contactUs{
+  height: 50px;
+  width: 150px;
+  border: 2px solid #fff;
+  background-color: var(--color-primary);
+  
+
+}
+.getStarted:hover{
+  background-color: var(--color-base-100);
+  color: #b13d10;
+}
+
+.contactUs:hover{
+  /* background-color: #af9898; */
+  /* opacity: 80%; */
+  background-color: #c94e1e;
+  border: 2px solid #fff;
+}
+/* .contactUs:active{
+  background-color: #c94e1e;
+
+} */
